@@ -22,7 +22,7 @@ const ProjectDisplay = () => {
       <h1> {project.name} </h1>
       {/* <ProjectImage /> */}
 
-      {id == 0 ? <div >
+      {parseInt(id) === 0 ? <div >
         <SimpleImageSlider
           width={600}
           height={500}
@@ -33,7 +33,7 @@ const ProjectDisplay = () => {
           autoPlay={true}
         />
       </div> :
-        id == 1 ? <div >
+        parseInt(id) === 1 ? <div >
           <SimpleImageSlider
             width={400}
             height={604}
@@ -43,7 +43,7 @@ const ProjectDisplay = () => {
             autoPlay={true}
           />
         </div> :
-          id == 2 ? <div >
+          parseInt(id) === 2 ? <div >
             <SimpleImageSlider
               width={650}
               height={604}
