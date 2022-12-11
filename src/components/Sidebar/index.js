@@ -3,18 +3,18 @@ import { useState } from 'react'
 import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_Sungjin-min.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faLinkedin,
-  faGithub,
-} from '@fortawesome/free-brands-svg-icons'
-import {
-  faHome,
-  faUser,
-  faEnvelope,
-  faSuitcase,
-  faBars,
-  faClose,
-} from '@fortawesome/free-solid-svg-icons'
+// import {
+//   faLinkedin,
+//   faGithub,
+// } from '@fortawesome/free-brands-svg-icons'
+// import {
+//   faHome,
+//   faUser,
+//   faEnvelope,
+//   faSuitcase,
+//   faBars,
+//   faClose,
+// } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
@@ -22,7 +22,7 @@ const Sidebar = () => {
 
   return (
     <div className="nav-bar">
-      <Link 
+      {/* <Link 
         className="logo"
         to="/"
         onClick={() => setShowNav(false)}>
@@ -100,7 +100,7 @@ const Sidebar = () => {
           icon={faBars}
           color="#ffd700"
           size="3x"
-          className='hamburger-icon' />
+          className='hamburger-icon' /> */}
     </div>
   )
 }

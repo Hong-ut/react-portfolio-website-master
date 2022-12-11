@@ -1,15 +1,15 @@
 import { useEffect, useState } from 'react'
-import {
-  faCss3,
-  faHtml5,
-  faJsSquare,
-  faReact,
-  faJava,
-  faNodeJs
-} from '@fortawesome/free-brands-svg-icons'
+// import {
+//   faCss3,
+//   faHtml5,
+//   faJsSquare,
+//   faReact,
+//   faJava,
+//   faNodeJs
+// } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 
 const About = () => {
@@ -48,7 +48,7 @@ const About = () => {
 
         <div className="stage-cube-cont">
           <div className="cubespinner">
-            <div className="face1">
+            {/* <div className="face1">
               <FontAwesomeIcon icon={faNodeJs} color="#DD0031" />
             </div>
             <div className="face2">
@@ -65,7 +65,7 @@ const About = () => {
             </div>
             <div className="face6">
               <FontAwesomeIcon icon={faCss3} color="#EC4D28" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
