@@ -16,8 +16,7 @@ const ProjectDisplay = () => {
     backgroundSize: 'contain !important',
   };
 
-  const mystyle2 = {
-  }
+
   return (
     <div className='project'>
       <h1> {project.name} </h1>
