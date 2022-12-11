@@ -44,7 +44,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am looking for internship opportunity. However, if you have any questions or requests, please feel free to reach out. 
+            I am particularly looking for internship opportunity. However, if you have any questions or requests, please feel free to reach out. 
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
