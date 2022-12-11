@@ -75,7 +75,7 @@ const ProjectDisplay = () => {
         <a href={project.links[0]} target="_blank" rel="noreferrer">
           <img src={github} alt="example" style={{ width: '80px' }} />
         </a>
-        {project.links.length == 2 &&
+        {project.links.length === 2 &&
           <a href={project.links[1]} target="_blank" rel="noreferrer">
             <img src={devpost} alt="example" style={{ width: '90px' }} />
           </a>

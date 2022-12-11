@@ -6,7 +6,7 @@ import ProjectItem from './ProjectItem';
 import projectList from "../../assets/projectList";
 
 const Portfolio = () => {
-    const [letterClass, setLetterClass] = useState('text-animate');
+    const [letterClass] = useState('text-animate');
 
     return (
         <>
